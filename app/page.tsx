@@ -69,7 +69,7 @@ export default function Home() {
         <div className="flex-1 flex justify-center">
           <div className="relative w-full max-w-[500px] aspect-square rounded-lg overflow-hidden shadow-xl">
             <img
-              src="/placeholder.svg?height=500&width=500"
+              src="/placeholder.jpg?height=500&width=500"
               alt="Travel destinations collage"
               className="object-cover w-full h-full"
             />
