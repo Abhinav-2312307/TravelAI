@@ -123,11 +123,11 @@ export default function Home() {
             Discover amazing places to visit. Just ask our AI assistant about any of these destinations to get started.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {["Manali", "Goa", "Shimla", "Kerala", "Rajasthan", "Andaman"].map((destination, index) => (
+            {["Manali", "Goa", "Shimla", "Kanpur", "Rajasthan", "Andaman"].map((destination, index) => (
               <div key={index} className="group relative overflow-hidden rounded-lg">
                 <div className="aspect-video w-full overflow-hidden rounded-lg">
                   <img
-                    src={`/placeholder.svg?height=300&width=500&text=${destination}`}
+                    src={`/${destination}.jpeg?height=300&width=500&text=${destination}`}
                     alt={destination}
                     className="object-cover w-full h-full transition-transform group-hover:scale-105 duration-300"
                   />
